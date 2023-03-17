@@ -16,7 +16,7 @@ public class BotGameVsBot extends BotGame {
     protected void _performPregameTasks() {
         _setAlgorithm(Enums.EngineAlgorithm.JUST_THE_BEST);
         try {
-            LichessInterface.writeChat(_gameId, "Hi! You're playing against @niteknighttbot, a bot created by @niteknightt!");
+            LichessInterface.writeChat(_gameId, "Hi! You're playing against @BotterBot, a bot created by @niteknightt!");
             LichessInterface.writeChat(_gameId, "GLHF!");
         }
         catch (LichessApiException e) { }
