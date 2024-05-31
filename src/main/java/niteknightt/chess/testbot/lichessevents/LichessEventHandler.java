@@ -50,6 +50,7 @@ public class LichessEventHandler {
                 }
                 if ((event.challenge.challenger.title == null || !event.challenge.challenger.title.equals("BOT")) &&
                         !event.challenge.challenger.id.equalsIgnoreCase("flowerhd") &&
+                        !event.challenge.challenger.id.equalsIgnoreCase("elihaber") &&
                         !event.challenge.challenger.id.equalsIgnoreCase("niteknightt")) {
                     // Rated challenge from human - decline
                     AppLogger.getInstance().info("Declining challenge ID " + event.challenge.id + " because it is not from one of us.");
